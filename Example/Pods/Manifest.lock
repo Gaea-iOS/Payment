@@ -1,0 +1,18 @@
+PODS:
+  - HuayingPayment (0.1.2):
+    - HuayingPayment/Alipay (= 0.1.2)
+  - HuayingPayment/Alipay (0.1.2)
+
+DEPENDENCIES:
+  - HuayingPayment (from `../`)
+
+EXTERNAL SOURCES:
+  HuayingPayment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuayingPayment: dc6eb75be9a9197524ed6a567fdb5ff6341e83b2
+
+PODFILE CHECKSUM: 826d6b6f19e913538fb2c15d44ba366e3095b8a1
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HuayingPayment_Example' do
+  pod 'HuayingPayment', :path => '../'
+
+  target 'HuayingPayment_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

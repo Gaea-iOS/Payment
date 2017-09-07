@@ -1,0 +1,44 @@
+{
+  "name": "HuayingPayment",
+  "version": "0.1.2",
+  "summary": "HuayingPayment Module including wechat and alipay",
+  "description": "TODO: fuck",
+  "homepage": "https://github.com/lzc1104/HuayingPayment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lzc1104": "527004184@QQ.COM"
+  },
+  "source": {
+    "git": "https://github.com/lzc1104/HuayingPayment.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HuayingPayment/*.swift",
+  "subspecs": [
+    {
+      "name": "Alipay",
+      "vendored_frameworks": "HuayingPayment/Alipay/*.framework",
+      "source_files": "HuayingPayment/Alipay/*",
+      "public_header_files": "HuayingPayment/Alipay/*.h",
+      "frameworks": [
+        "UIKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "QuartzCore",
+        "CoreText",
+        "CoreGraphics",
+        "CFNetwork",
+        "CoreMotion"
+      ],
+      "libraries": [
+        "c++",
+        "z"
+      ]
+    }
+  ]
+}

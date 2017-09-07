@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0909A0D6D553DFFEB3035ADDA633FE52 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881F64EAEFF80F0858BDE8CE62D4DA7E /* CoreMotion.framework */; };
+		170A881465761E850A6DEACC3CF6AFC4 /* Pods-HuayingPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DEB4399F074887088623BC6F0D7B26 /* Pods-HuayingPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E9020261CCA63B2095E4327B311420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A9B90CECF619E71DEF53EADDF29902 /* Foundation.framework */; };
+		2F35E357AC07855717D189F2CC2092C7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8291639372CEDEDEA680CC38036686CB /* CoreText.framework */; };
+		46E189FA911EC46F8C58DE34E745AE0C /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765886CCAA56C92DAA169E15E628C192 /* PaymentManager.swift */; };
+		48024A8F0E4E960240792E1EBEEAB552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A9B90CECF619E71DEF53EADDF29902 /* Foundation.framework */; };
+		480D00D776BF495B396EBEFA9AE208A3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA56489864DBEEEF01602FFFF71861 /* CoreTelephony.framework */; };
+		4A15F01B7D08A540E0B065CA8A57E134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0613A582A8F6C38F1C86436F5921605B /* UIKit.framework */; };
+		4DAFEC4147E4012D21360485FFA84CA4 /* Pods-HuayingPayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB14DF302213032A58E665BC7251629 /* Pods-HuayingPayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6497A172D6CFEC6756947D93471B7619 /* Alipaymanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC8096EF94BED0B9E631346DFACA4E /* Alipaymanger.m */; };
+		6F104888D3661ADDCE07E1009591A756 /* Pods-HuayingPayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF92EA214380E5438AF0512F6F8704BE /* Pods-HuayingPayment_Tests-dummy.m */; };
+		7112A239338781E80E3340D7404C58FB /* Alipaymanger.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C24ACE4F7736BE3B8EF49E58277484 /* Alipaymanger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD499E447CB34F860AC56AAC513106F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A9B90CECF619E71DEF53EADDF29902 /* Foundation.framework */; };
+		E2AB025F6BD7F22E08B9AE5CA90E742F /* Pods-HuayingPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DAA40548CC27101AC059447744F5B /* Pods-HuayingPayment_Example-dummy.m */; };
+		EB2B0DFD029823B06153D37943D6243A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327421D25DCA3348DD5FDC1AD255A31C /* CoreGraphics.framework */; };
+		F40D39BBAB9F1C272179FB0FD4BF7E1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E9D148ED6A479E251337F289FD78A /* QuartzCore.framework */; };
+		F5978200D0C67803A66484748D4E134E /* HuayingPayment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B8BDA9F337C3E97DD076C79EBF555D /* HuayingPayment-dummy.m */; };
+		F5F95F809A2E4FA4BF054BA677D500DE /* HuayingPayment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D46BC955663452DD53C1CDEE9F9EE7 /* HuayingPayment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2C0FE935BCC7CC83E539C7D4068B55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28F3D57B5347A94914BF8A3E7A16DB5 /* CFNetwork.framework */; };
+		FE4CECE318B73D29367DF95A0702CAB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5B021E05129CE85E3267C4C25180A6 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC34919E2DA9248893073D4335F33843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC008C5E1E0F1976F29D87751ED01B0D;
+			remoteInfo = HuayingPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0371862FB622549A4C4D2F79591E4CB1 /* Pods-HuayingPayment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuayingPayment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0613A582A8F6C38F1C86436F5921605B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		126945263EF414B51905F6302C282E8C /* Pods-HuayingPayment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuayingPayment_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16DEB4399F074887088623BC6F0D7B26 /* Pods-HuayingPayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuayingPayment_Example-umbrella.h"; sourceTree = "<group>"; };
+		2222A34BFC9214364FB20833B0CB1115 /* Pods-HuayingPayment_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuayingPayment_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		24D676CB347ED04D8377219A2163CAEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC70707BFC986A8D53E7C4BD7C2C514 /* Pods-HuayingPayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuayingPayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FF320FEC5BE065B9A4BC2F2218AA205 /* Pods-HuayingPayment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HuayingPayment_Example.modulemap"; sourceTree = "<group>"; };
+		327421D25DCA3348DD5FDC1AD255A31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		33B8BDA9F337C3E97DD076C79EBF555D /* HuayingPayment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuayingPayment-dummy.m"; sourceTree = "<group>"; };
+		33C24ACE4F7736BE3B8EF49E58277484 /* Alipaymanger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alipaymanger.h; sourceTree = "<group>"; };
+		433D3D2702C8CF44FD6567F89F49A988 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A9B90CECF619E71DEF53EADDF29902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47AF8BE2EF08A391D2F5778E56B9A2E6 /* HuayingPayment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuayingPayment-prefix.pch"; sourceTree = "<group>"; };
+		58FF9E437C08883F1EB9C055DA6B48BF /* Pods-HuayingPayment_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuayingPayment_Example-resources.sh"; sourceTree = "<group>"; };
+		65BDF6E16B12332C29AFBF47B0F1EE0A /* Pods-HuayingPayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuayingPayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		703DAA40548CC27101AC059447744F5B /* Pods-HuayingPayment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuayingPayment_Example-dummy.m"; sourceTree = "<group>"; };
+		737ACE524A6C605B4D490EBDAEE45739 /* Pods-HuayingPayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuayingPayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		765886CCAA56C92DAA169E15E628C192 /* PaymentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		8291639372CEDEDEA680CC38036686CB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		84FA56489864DBEEEF01602FFFF71861 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		881F64EAEFF80F0858BDE8CE62D4DA7E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		8FEC8096EF94BED0B9E631346DFACA4E /* Alipaymanger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Alipaymanger.m; sourceTree = "<group>"; };
+		937E9D148ED6A479E251337F289FD78A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D46BC955663452DD53C1CDEE9F9EE7 /* HuayingPayment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuayingPayment-umbrella.h"; sourceTree = "<group>"; };
+		994A843CC51C78E79C47E56754786338 /* HuayingPayment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuayingPayment.xcconfig; sourceTree = "<group>"; };
+		9D41D43A5CBB1B51BB63453828B1488E /* Pods-HuayingPayment_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuayingPayment_Tests-resources.sh"; sourceTree = "<group>"; };
+		A3DAD095CE752D2D86F5E5D6A97ECE57 /* Pods-HuayingPayment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuayingPayment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD9EB0C846DA9122A71B5C4CC778F023 /* HuayingPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HuayingPayment.framework; path = HuayingPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10C1188D9D5FD0F29FCCF8BE685A5E5 /* Pods-HuayingPayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuayingPayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B28F3D57B5347A94914BF8A3E7A16DB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		B6EB707D834CF575AB1522FA4E44C81F /* Pods-HuayingPayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuayingPayment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF92EA214380E5438AF0512F6F8704BE /* Pods-HuayingPayment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuayingPayment_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC2613E2AB2EA9172EBF7398B6523026 /* Pods-HuayingPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuayingPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CC520CAC3C7B0DFB7630AE5A975169DF /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = HuayingPayment/Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
+		CCB14DF302213032A58E665BC7251629 /* Pods-HuayingPayment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuayingPayment_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DBE6FE008C07D22B90C43D69E71CF621 /* HuayingPayment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HuayingPayment.modulemap; sourceTree = "<group>"; };
+		EF4C8EDFCD995DAF71C958AB3FABCD40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19ED14C02A7C16868B1070F16B1882B /* Pods-HuayingPayment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HuayingPayment_Tests.modulemap"; sourceTree = "<group>"; };
+		FA5B021E05129CE85E3267C4C25180A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FC7309C387A29044D378CF583BDE7C28 /* Pods_HuayingPayment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HuayingPayment_Tests.framework; path = "Pods-HuayingPayment_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5573EDCE6C92FF08100A4404F7F6FA /* Pods_HuayingPayment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HuayingPayment_Example.framework; path = "Pods-HuayingPayment_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F61BF389D852E55F57141765C59B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C0FE935BCC7CC83E539C7D4068B55 /* CFNetwork.framework in Frameworks */,
+				EB2B0DFD029823B06153D37943D6243A /* CoreGraphics.framework in Frameworks */,
+				0909A0D6D553DFFEB3035ADDA633FE52 /* CoreMotion.framework in Frameworks */,
+				480D00D776BF495B396EBEFA9AE208A3 /* CoreTelephony.framework in Frameworks */,
+				2F35E357AC07855717D189F2CC2092C7 /* CoreText.framework in Frameworks */,
+				21E9020261CCA63B2095E4327B311420 /* Foundation.framework in Frameworks */,
+				F40D39BBAB9F1C272179FB0FD4BF7E1F /* QuartzCore.framework in Frameworks */,
+				FE4CECE318B73D29367DF95A0702CAB3 /* SystemConfiguration.framework in Frameworks */,
+				4A15F01B7D08A540E0B065CA8A57E134 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C46C9C73F4D60027F6F4957039BCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48024A8F0E4E960240792E1EBEEAB552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714B075F53B5058F4244F2FD592DED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD499E447CB34F860AC56AAC513106F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CF1FC8FAB07C4819D53DEE7536B3C8 /* Pods-HuayingPayment_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24D676CB347ED04D8377219A2163CAEE /* Info.plist */,
+				2FF320FEC5BE065B9A4BC2F2218AA205 /* Pods-HuayingPayment_Example.modulemap */,
+				2FC70707BFC986A8D53E7C4BD7C2C514 /* Pods-HuayingPayment_Example-acknowledgements.markdown */,
+				A3DAD095CE752D2D86F5E5D6A97ECE57 /* Pods-HuayingPayment_Example-acknowledgements.plist */,
+				703DAA40548CC27101AC059447744F5B /* Pods-HuayingPayment_Example-dummy.m */,
+				126945263EF414B51905F6302C282E8C /* Pods-HuayingPayment_Example-frameworks.sh */,
+				58FF9E437C08883F1EB9C055DA6B48BF /* Pods-HuayingPayment_Example-resources.sh */,
+				16DEB4399F074887088623BC6F0D7B26 /* Pods-HuayingPayment_Example-umbrella.h */,
+				CC2613E2AB2EA9172EBF7398B6523026 /* Pods-HuayingPayment_Example.debug.xcconfig */,
+				B6EB707D834CF575AB1522FA4E44C81F /* Pods-HuayingPayment_Example.release.xcconfig */,
+			);
+			name = "Pods-HuayingPayment_Example";
+			path = "Target Support Files/Pods-HuayingPayment_Example";
+			sourceTree = "<group>";
+		};
+		16621FFD2DD8906300E29C6F45C7BFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB0C846DA9122A71B5C4CC778F023 /* HuayingPayment.framework */,
+				FE5573EDCE6C92FF08100A4404F7F6FA /* Pods_HuayingPayment_Example.framework */,
+				FC7309C387A29044D378CF583BDE7C28 /* Pods_HuayingPayment_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202EAF34D8F120354D01F789541B9354 /* HuayingPayment */ = {
+			isa = PBXGroup;
+			children = (
+				765886CCAA56C92DAA169E15E628C192 /* PaymentManager.swift */,
+			);
+			name = HuayingPayment;
+			path = HuayingPayment;
+			sourceTree = "<group>";
+		};
+		20DE3E15282D1B4F53D65EFAAD0A1485 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				33C24ACE4F7736BE3B8EF49E58277484 /* Alipaymanger.h */,
+				8FEC8096EF94BED0B9E631346DFACA4E /* Alipaymanger.m */,
+			);
+			name = Alipay;
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802948A786A4C076312B9800B1B950AA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		376232CF8A2E66F4BBBA9925B0344518 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0854D978702291E116DCF13C57F9E34 /* HuayingPayment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				376232CF8A2E66F4BBBA9925B0344518 /* Development Pods */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				16621FFD2DD8906300E29C6F45C7BFD5 /* Products */,
+				8D3C65B6A45CB3E5FCD8A95075D88475 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		802948A786A4C076312B9800B1B950AA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B28F3D57B5347A94914BF8A3E7A16DB5 /* CFNetwork.framework */,
+				327421D25DCA3348DD5FDC1AD255A31C /* CoreGraphics.framework */,
+				881F64EAEFF80F0858BDE8CE62D4DA7E /* CoreMotion.framework */,
+				84FA56489864DBEEEF01602FFFF71861 /* CoreTelephony.framework */,
+				8291639372CEDEDEA680CC38036686CB /* CoreText.framework */,
+				43A9B90CECF619E71DEF53EADDF29902 /* Foundation.framework */,
+				937E9D148ED6A479E251337F289FD78A /* QuartzCore.framework */,
+				FA5B021E05129CE85E3267C4C25180A6 /* SystemConfiguration.framework */,
+				0613A582A8F6C38F1C86436F5921605B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8D3C65B6A45CB3E5FCD8A95075D88475 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11CF1FC8FAB07C4819D53DEE7536B3C8 /* Pods-HuayingPayment_Example */,
+				8E1272A237C4A4E19C9B95A47A06669E /* Pods-HuayingPayment_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E1272A237C4A4E19C9B95A47A06669E /* Pods-HuayingPayment_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				433D3D2702C8CF44FD6567F89F49A988 /* Info.plist */,
+				F19ED14C02A7C16868B1070F16B1882B /* Pods-HuayingPayment_Tests.modulemap */,
+				0371862FB622549A4C4D2F79591E4CB1 /* Pods-HuayingPayment_Tests-acknowledgements.markdown */,
+				737ACE524A6C605B4D490EBDAEE45739 /* Pods-HuayingPayment_Tests-acknowledgements.plist */,
+				BF92EA214380E5438AF0512F6F8704BE /* Pods-HuayingPayment_Tests-dummy.m */,
+				2222A34BFC9214364FB20833B0CB1115 /* Pods-HuayingPayment_Tests-frameworks.sh */,
+				9D41D43A5CBB1B51BB63453828B1488E /* Pods-HuayingPayment_Tests-resources.sh */,
+				CCB14DF302213032A58E665BC7251629 /* Pods-HuayingPayment_Tests-umbrella.h */,
+				B10C1188D9D5FD0F29FCCF8BE685A5E5 /* Pods-HuayingPayment_Tests.debug.xcconfig */,
+				65BDF6E16B12332C29AFBF47B0F1EE0A /* Pods-HuayingPayment_Tests.release.xcconfig */,
+			);
+			name = "Pods-HuayingPayment_Tests";
+			path = "Target Support Files/Pods-HuayingPayment_Tests";
+			sourceTree = "<group>";
+		};
+		9049E766C7519E89FF04F21E0B9506E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC520CAC3C7B0DFB7630AE5A975169DF /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95791A47287E6627666A720465EAF455 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				9049E766C7519E89FF04F21E0B9506E5 /* Frameworks */,
+				FB2FEA34421036BAAA8F3C3C2CDE78E0 /* HuayingPayment */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
+		C0854D978702291E116DCF13C57F9E34 /* HuayingPayment */ = {
+			isa = PBXGroup;
+			children = (
+				95791A47287E6627666A720465EAF455 /* Alipay */,
+				202EAF34D8F120354D01F789541B9354 /* HuayingPayment */,
+				CB34C21538E866CF53844A0407591D21 /* Support Files */,
+			);
+			name = HuayingPayment;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB34C21538E866CF53844A0407591D21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBE6FE008C07D22B90C43D69E71CF621 /* HuayingPayment.modulemap */,
+				994A843CC51C78E79C47E56754786338 /* HuayingPayment.xcconfig */,
+				33B8BDA9F337C3E97DD076C79EBF555D /* HuayingPayment-dummy.m */,
+				47AF8BE2EF08A391D2F5778E56B9A2E6 /* HuayingPayment-prefix.pch */,
+				96D46BC955663452DD53C1CDEE9F9EE7 /* HuayingPayment-umbrella.h */,
+				EF4C8EDFCD995DAF71C958AB3FABCD40 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HuayingPayment";
+			sourceTree = "<group>";
+		};
+		FB2FEA34421036BAAA8F3C3C2CDE78E0 /* HuayingPayment */ = {
+			isa = PBXGroup;
+			children = (
+				20DE3E15282D1B4F53D65EFAAD0A1485 /* Alipay */,
+			);
+			name = HuayingPayment;
+			path = HuayingPayment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5245FA8187DDA6F73890A5A48296AFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFEC4147E4012D21360485FFA84CA4 /* Pods-HuayingPayment_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6531945B3D3DF46D9C2F2BDD72064AA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112A239338781E80E3340D7404C58FB /* Alipaymanger.h in Headers */,
+				F5F95F809A2E4FA4BF054BA677D500DE /* HuayingPayment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974B170DF5304B21683A0ED2F07014E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170A881465761E850A6DEACC3CF6AFC4 /* Pods-HuayingPayment_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C0F4B1CE900B0E24A2E362A6DC4DF8C8 /* Pods-HuayingPayment_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746F2A0F96002398A2ABF5053F9AE00B /* Build configuration list for PBXNativeTarget "Pods-HuayingPayment_Tests" */;
+			buildPhases = (
+				19DCC0998007BBCFF236BAB19DBFC00C /* Sources */,
+				C714B075F53B5058F4244F2FD592DED3 /* Frameworks */,
+				5245FA8187DDA6F73890A5A48296AFAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HuayingPayment_Tests";
+			productName = "Pods-HuayingPayment_Tests";
+			productReference = FC7309C387A29044D378CF583BDE7C28 /* Pods_HuayingPayment_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C19BE53DCC6B393DA62759A48E46921F /* Pods-HuayingPayment_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC0612597A8DCB82CFFD4F631640D4F /* Build configuration list for PBXNativeTarget "Pods-HuayingPayment_Example" */;
+			buildPhases = (
+				D9948D39489098DEE480043D6E3C3078 /* Sources */,
+				29C46C9C73F4D60027F6F4957039BCEC /* Frameworks */,
+				C974B170DF5304B21683A0ED2F07014E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7A51295A13A66B90357416160B4B95 /* PBXTargetDependency */,
+			);
+			name = "Pods-HuayingPayment_Example";
+			productName = "Pods-HuayingPayment_Example";
+			productReference = FE5573EDCE6C92FF08100A4404F7F6FA /* Pods_HuayingPayment_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC008C5E1E0F1976F29D87751ED01B0D /* HuayingPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F636F61603342F89DC2193F14E62FC7 /* Build configuration list for PBXNativeTarget "HuayingPayment" */;
+			buildPhases = (
+				194DBD0482E5CDC238800A6309617715 /* Sources */,
+				19F61BF389D852E55F57141765C59B65 /* Frameworks */,
+				6531945B3D3DF46D9C2F2BDD72064AA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuayingPayment;
+			productName = HuayingPayment;
+			productReference = AD9EB0C846DA9122A71B5C4CC778F023 /* HuayingPayment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 16621FFD2DD8906300E29C6F45C7BFD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC008C5E1E0F1976F29D87751ED01B0D /* HuayingPayment */,
+				C19BE53DCC6B393DA62759A48E46921F /* Pods-HuayingPayment_Example */,
+				C0F4B1CE900B0E24A2E362A6DC4DF8C8 /* Pods-HuayingPayment_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194DBD0482E5CDC238800A6309617715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6497A172D6CFEC6756947D93471B7619 /* Alipaymanger.m in Sources */,
+				F5978200D0C67803A66484748D4E134E /* HuayingPayment-dummy.m in Sources */,
+				46E189FA911EC46F8C58DE34E745AE0C /* PaymentManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DCC0998007BBCFF236BAB19DBFC00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F104888D3661ADDCE07E1009591A756 /* Pods-HuayingPayment_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9948D39489098DEE480043D6E3C3078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AB025F6BD7F22E08B9AE5CA90E742F /* Pods-HuayingPayment_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7A51295A13A66B90357416160B4B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HuayingPayment;
+			target = DC008C5E1E0F1976F29D87751ED01B0D /* HuayingPayment */;
+			targetProxy = CC34919E2DA9248893073D4335F33843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		542B370AA9AF289F58A5F23D6FEC640B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994A843CC51C78E79C47E56754786338 /* HuayingPayment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HuayingPayment/HuayingPayment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuayingPayment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuayingPayment/HuayingPayment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HuayingPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		651F30203A9350C8E0799AFFF59F16D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10C1188D9D5FD0F29FCCF8BE685A5E5 /* Pods-HuayingPayment_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HuayingPayment_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuayingPayment_Tests/Pods-HuayingPayment_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HuayingPayment_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A286822C14396E6F388040914EE96F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BDF6E16B12332C29AFBF47B0F1EE0A /* Pods-HuayingPayment_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HuayingPayment_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuayingPayment_Tests/Pods-HuayingPayment_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HuayingPayment_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1EF56C31F0DBB19425CE60D2AA9048A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EB707D834CF575AB1522FA4E44C81F /* Pods-HuayingPayment_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HuayingPayment_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuayingPayment_Example/Pods-HuayingPayment_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HuayingPayment_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D603A8B28754D7C5CCFAB0DAFA122C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2613E2AB2EA9172EBF7398B6523026 /* Pods-HuayingPayment_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HuayingPayment_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuayingPayment_Example/Pods-HuayingPayment_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HuayingPayment_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEDC0489DFC499302FD51792EB5A6EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994A843CC51C78E79C47E56754786338 /* HuayingPayment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HuayingPayment/HuayingPayment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuayingPayment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuayingPayment/HuayingPayment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HuayingPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F636F61603342F89DC2193F14E62FC7 /* Build configuration list for PBXNativeTarget "HuayingPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDC0489DFC499302FD51792EB5A6EC2 /* Debug */,
+				542B370AA9AF289F58A5F23D6FEC640B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC0612597A8DCB82CFFD4F631640D4F /* Build configuration list for PBXNativeTarget "Pods-HuayingPayment_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D603A8B28754D7C5CCFAB0DAFA122C28 /* Debug */,
+				D1EF56C31F0DBB19425CE60D2AA9048A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746F2A0F96002398A2ABF5053F9AE00B /* Build configuration list for PBXNativeTarget "Pods-HuayingPayment_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651F30203A9350C8E0799AFFF59F16D6 /* Debug */,
+				A286822C14396E6F388040914EE96F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
